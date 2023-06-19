@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(3, 18, 27);
+    display: flex;
+    justify-content: space-between;
+}
+#leftContainer{
+    margin: 15vh 0 0 5vw;
+    color: white;
+    font-size: large;
+    letter-spacing: 0.1rem;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#rightContainer{
+    margin: 15vh 5vw 0 0;
+    color: white;
+}
+
+#rightContainer img{
+    width: 15vw;
+}
+
+#inputText{
+    margin-top: 2vh;
+    background-color: rgb(3, 57, 90);
+    color: white;
+    font-size: medium;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+}
+#searchButton{
+    cursor: pointer ;
+    background-color: rgb(1, 28, 44);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(10, 241, 107);
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.4s;
+}
+#searchButton:hover{
+    transform: scale(1.1);
+}
+#nextButton:hover{
+    transform: scale(1.1);
+}
+#nextButton{
+    margin-left: 4vw;
+    cursor: pointer ;
+    background-color: rgb(1, 28, 44);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(10, 241, 107);
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.4s;
+}
+#name{
+    margin-top: 4vh;
+    text-align: center;
+}
+#img{
+    margin-top: 2vh;
+}
+#name span{
+    background-color: rgb(65, 133, 235);
+    padding: 0.5vw;
+    border-radius: 0.2rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
